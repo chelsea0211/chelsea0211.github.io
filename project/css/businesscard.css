@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*.before,*.after{
+    box-sizing: border-box;
+}
+
+.shapebox{
+    box-sizing: content-box;
+}
+
+
+.wrap{
+    width: 100%;
+    background: #00f5a8;
+    display:flex;
+    justify-content: center;
+    padding:100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    writing-mode: vertical-lr;
+    color:#004e40;
+   
+}
+.header h1{
+    font-size:70px;
+}
+.header p{
+    font-size:35px;
+    letter-spacing: 20px;
+}
+.card{
+    margin:50px;
+    width: 450px;
+    
+    border-radius: 10px;
+    background: #fff;
+    padding:10px;
+    box-shadow: 0 0 15px #005642;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    margin:5px;
+}
+.card h5{
+    font-size:24px;
+    color:#64929a;
+    font-weight: bold;
+    text-indent: 10px;
+}
+.card h6{
+    margin-top:10px;
+    font-size:28px;
+    color:#005642;
+    font-weight: bold;
+    text-indent: 120px;
+}
+.detail li{
+    font-size:14px;
+    color:#64929a;
+    text-indent: 10px;
+    line-height: 1.2em;
+}
+.detail li a{
+    text-decoration: none;
+}
+.detail{
+    margin-top:10px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+  }
+  
+  .hex{
+    position:relative;
+    width:50px;
+    height:0;
+    border-width:0 25px 43.5px;
+    border-style:solid;
+    border-color:transparent transparent #069;
+  }
+  
+.hex:before {
+  position:absolute;
+  content:"";
+  top:43.5px;
+  left:-25px;
+  width:50px;
+  height:0;
+  background:none;
+  border-width:43.5px 25px 0;
+  border-style:solid;    
+  border-color:#069 transparent transparent;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+  }
+  
+  .hex{
+    position:relative;
+    width:50px;
+    height:0;
+    border-width:0 25px 43.5px;
+    border-style:solid;
+    border-color:transparent transparent #069;
+  }
+  
+.hex:before {
+  position:absolute;
+  content:"";
+  top:43.5px;
+  left:-25px;
+  width:50px;
+  height:0;
+  background:none;
+  border-width:43.5px 25px 0;
+  border-style:solid;    
+  border-color:#069 transparent transparent;
+  }
+  
+
+  .logo1 {
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  
+.hex1{
+    position:relative;
+    width:80px;
+    height:0;
+    border-width:0 40px 69.6px;
+    border-style:solid;
+    border-color:transparent transparent rgb(20, 72, 99);
+  }
+  
+.hex1:before {
+  position:absolute;
+  content:"";
+  top:69.6px;
+  left:-40px;
+  width:80px;
+  height:0;
+  background:none;
+  border-width:69.6px 40px 0;
+  border-style:solid;    
+  border-color:rgb(20, 72, 99) transparent transparent;
+  }
+
+  .logo2 {
+    position: absolute;
+    bottom:30px;
+    right: -50px;
+  }
+  
+.hex2{
+    position:relative;
+    width:80px;
+    height:0;
+    border-width:0 40px 69.6px;
+    border-style:solid;
+    border-color:transparent transparent rgb(70, 223, 250);
+  }
+  
+.hex2:before {
+  position:absolute;
+  content:"";
+  top:69.6px;
+  left:-40px;
+  width:80px;
+  height:0;
+  background:none;
+  border-width:69.6px 40px 0;
+  border-style:solid;    
+  border-color:rgb(70, 223, 250) transparent transparent;
+  }
+  .last{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:block;
+    color:blue;
+    background: red;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size:16px;
+    font-weight: bolder;
+  }
